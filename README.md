@@ -30,6 +30,7 @@ tail /var/log/dnf.log
 
 ### Stage 2: See the changes get reflected
 
+
 We will create some log entries.
 
 Run:
@@ -49,6 +50,7 @@ tail installation.log | grep -i failed >> install-fail
 
 ### Stage 3: Removing a File and Verify The Other is Still Intact
 
+
 simply remove the installation.log file
 
 Run:
@@ -67,6 +69,7 @@ tail /var/log/dnf.log | grep -i failed
 
 ### Stage 3: Creating a symbolic link
 
+
 We will change our directory to the root users directory.
 Once in your root directory we will create a hard link from /proc/meminfo to memory_info.txt in your home directory.
 
@@ -79,6 +82,7 @@ Run: ln -s /proc/meminfo memory_info.txt
 ![pt 7](https://github.com/Magee3/Creating-a-Backup-Directory-Using-Linux/assets/134301259/07527007-f0c1-46f9-8ba1-dd33fd82df5c)
 
 ### Stage 4: Remove an original file through link
+
 
 Create a file with something inside in the root directory. I used "linktest"
 
