@@ -1,5 +1,8 @@
 # File linking in Linux
 
+
+![File Linking in Linux](https://github.com/Magee3/Creating-a-Backup-Directory-Using-Linux/assets/134301259/06d96312-3308-4165-b387-53245fa0fc90)
+
 ### Objective
 
 We will establishing a backup directory for authentication logs, generating manual symbolic links, and subsequently, making an endeavor to eliminate a specific link. Creating a backup directory for log establishes a designated folder to store
