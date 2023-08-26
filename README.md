@@ -11,7 +11,9 @@ First things first we will create our directory in our home file. We will create
 
 /backup/log
 
-![2](https://github.com/Magee3/Creating-a-Backup-Directory-Using-Linux/assets/134301259/c2ab1817-b989-4fe6-8082-1f187a7d1300)
+![Pt 1](https://github.com/Magee3/Creating-a-Backup-Directory-Using-Linux/assets/134301259/73acb0cc-df9d-4b19-86c4-646f59e45b0b)
+
+
 
 After you move into your newly made "log" directory we will create a link. We will link /var/log/dnf.log with installation.log. This will create a hard link to the auth directory.
 Run:
