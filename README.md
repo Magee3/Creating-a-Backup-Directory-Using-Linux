@@ -65,7 +65,7 @@ tail /var/log/dnf.log | grep -i failed
 ![pt 4](https://github.com/Magee3/Creating-a-Backup-Directory-Using-Linux/assets/134301259/49f5a071-ffdc-4a10-8305-8d738338b051)
 
 
-### Creating a symbolic link
+### Stage 3: Creating a symbolic link
 
 We will change our directory to the root users directory.
 Once in your root directory we will create a hard link from /proc/meminfo to memory_info.txt in your home directory.
@@ -78,7 +78,7 @@ Run: ln -s /proc/meminfo memory_info.txt
 
 ![pt 7](https://github.com/Magee3/Creating-a-Backup-Directory-Using-Linux/assets/134301259/07527007-f0c1-46f9-8ba1-dd33fd82df5c)
 
-### Remove an original file through link
+### Stage 4: Remove an original file through link
 
 Create a file with something inside in the root directory. I used "linktest"
 
